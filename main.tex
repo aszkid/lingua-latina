@@ -1,0 +1,33 @@
+\documentclass[12pt,oneside]{book}
+
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{ebgaramond}
+\usepackage[a5paper]{geometry}
+\usepackage{polyglossia}
+\usepackage[modulo]{lineno}
+\usepackage{enumerate}
+\usepackage{fontspec}
+
+%\setmainlanguage[babelshorthands]{latin}
+
+\include{helpers}
+
+\begin{document}
+
+\frontmatter
+\title{\Huge LINGUA LATINA\\PER SE\\ILLUSTRATA}
+\author{
+  Hans H. Ørberg\\
+  {\small tr. me}
+}
+\date{}
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{pref}
+
+\include{01}
+\include{02}
+
+\end{document}
